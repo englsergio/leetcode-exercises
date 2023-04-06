@@ -1,8 +1,11 @@
-package src.exercises;
+package exercises;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int res = RomanToInteger.romanToInt_betterSolution("MCMXCIV");
-        System.out.println(res);
+        String[] arr = {"flower","flow","flight"};
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
     }
 }
